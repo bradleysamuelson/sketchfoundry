@@ -368,7 +368,10 @@ export default function Home() {
 									height={300}
 									alt=""
 								/>
-                                <p>You get access to your own project tracking board where you can create as many requests as you want.</p>
+								<div className='how-it-works-copy-container'>
+									<div className='how-it-works-number'>1</div>
+                                	<p>You get access to your own project tracking board where you can create as many requests as you want.</p>
+								</div>
                             </div>
                             <div className='how-it-works-2'>
                                 {/* <img src={hiw2} alt='' /> */}
@@ -378,8 +381,11 @@ export default function Home() {
 									height={300}
 									alt=""
 								/>
-                                <p>Your highest priority request will get worked on immediately, with unlimited revisions until it’s perfect!</p>
-                            </div>
+								<div className='how-it-works-copy-container'>
+									<div className='how-it-works-number'>2</div>
+                                	<p>Your highest priority request will get worked on immediately, with unlimited revisions until it’s perfect!</p>
+								</div>
+							</div>
                             <div className='how-it-works-3'>
                                 {/* <img src={hiw3} alt='' /> */}
 								<Image
@@ -388,8 +394,11 @@ export default function Home() {
 									height={300}
 									alt=""
 								/>
-                                <p>Once complete, we’ll move on to your next request right away.</p>
-                            </div>
+								<div className='how-it-works-copy-container'>
+									<div className='how-it-works-number'>3</div>
+                                	<p>Once complete, we’ll move on to your next request right away.</p>
+								</div>
+							</div>
                         </div>
                         <div className='how-it-works-notes'>
                         All notes, communication, revisions, etc are done asynchronously on your board so you don’t have to spend time in meetings.
