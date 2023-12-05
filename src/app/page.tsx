@@ -190,7 +190,7 @@ export default function Home() {
 									height={400}
 									width={206}
 									className='stat-intro-gnome'
-									alt=""
+									alt="Gnome"
 								/>
 								<div className='stat-text-container cartoon-font-solid'>
                                     <div className='stat-intro-text'>
@@ -218,7 +218,7 @@ export default function Home() {
 									height={400}
 									width={272}
 									className='stat-intro-gnome'
-									alt=""
+									alt="Information"
 								/>
                                 {/* <img src={gnomeBrain} alt="" className='stat-intro-gnome' /> */}
                             </div>
@@ -229,7 +229,7 @@ export default function Home() {
 									height={400}
 									width={341}
 									className='stat-intro-gnome'
-									alt=""
+									alt="Engagement"
 								/>
 								<div className='stat-text-container cartoon-font-solid'>
                                     <div className='stat-text stat-text-1'>
@@ -253,7 +253,7 @@ export default function Home() {
 									height={400}
 									width={220}
 									className='stat-intro-gnome'
-									alt=""
+									alt="Reading"
 								/>
                                 {/* <img src={gnomeBook} alt="" className='stat-intro-gnome' /> */}
                             </div>
@@ -264,7 +264,7 @@ export default function Home() {
 									height={400}
 									width={231}
 									className='stat-intro-gnome'
-									alt=""
+									alt="Illustrations perform the best"
 								/>
 								<div className='stat-text-container cartoon-font-solid'>
                                     
@@ -295,7 +295,7 @@ export default function Home() {
 									height={400}
 									width={382}
 									className='stat-intro-gnome'
-									alt=""
+									alt="Following Directions"
 								/>
                                 {/* <img src={gnomeShelf} alt="" className='stat-intro-gnome' /> */}
                             </div>
@@ -331,7 +331,7 @@ export default function Home() {
 					<Image
 						src={divider1}
 						fill
-						alt=""
+						alt="-"
 					/>
                 </div>
 
@@ -352,7 +352,7 @@ export default function Home() {
 					<Image
 						src={divider2}
 						fill
-						alt=""
+						alt="-"
 					/>
                 </div>
 
@@ -366,7 +366,7 @@ export default function Home() {
 									src={hiw1}
 									width={230}
 									height={300}
-									alt=""
+									alt="Project Board"
 								/>
 								<div className='how-it-works-copy-container'>
 									<div className='how-it-works-number'>1</div>
@@ -379,7 +379,7 @@ export default function Home() {
 									src={hiw2}
 									width={286}
 									height={300}
-									alt=""
+									alt="Work in progress"
 								/>
 								<div className='how-it-works-copy-container'>
 									<div className='how-it-works-number'>2</div>
@@ -392,7 +392,7 @@ export default function Home() {
 									src={hiw3}
 									width={249}
 									height={300}
-									alt=""
+									alt="Complete"
 								/>
 								<div className='how-it-works-copy-container'>
 									<div className='how-it-works-number'>3</div>
@@ -410,7 +410,7 @@ export default function Home() {
 					<Image
 						src={divider3}
 						fill
-						alt=""
+						alt="-"
 					/>
                 </div>
 
@@ -437,7 +437,7 @@ export default function Home() {
 					<Image
 						src={divider1}
 						fill
-						alt=""
+						alt="-"
 					/>
                 </div>
 
@@ -528,7 +528,7 @@ export default function Home() {
 					<Image
 						src={divider2}
 						fill
-						alt=""
+						alt="-"
 					/>
                 </div>
 

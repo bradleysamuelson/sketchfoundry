@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 // import './globals.css'
 import './styles.scss';
+import { Analytics } from '@vercel/analytics/react';
+
 
 // const inter = Inter({ subsets: ['latin'] });
 // const rubik = Rubik({ subsets: ['latin'] });
@@ -44,6 +46,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 		<body>{children}</body>
+		<Analytics />
 	</html>
   )
 }
