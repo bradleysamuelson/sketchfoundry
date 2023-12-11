@@ -5,6 +5,8 @@
 	--secondary: #baa23f;
 	--tertiary: #7f7134;
 	--light: #f6f3e9;
+	--light-gray: #fafafa;
+	--gray: #ccc;
 	--link: #41828f;
 	--hover: #2f5d66;
 	--header-height: 100px;
@@ -594,6 +596,7 @@ main {
 	max-width: var(--max-width-desktop);
 	margin: 0 auto 3rem;
 }
+
 .pricing-option {
 	border: 1px solid var(--secondary);
 	padding: 1rem 2rem 2rem;
@@ -608,7 +611,12 @@ main {
 	.button-container {
 		padding: 1rem 0;
 	}
+	&.pricing-option-single {
+		background-color: var(--light-gray);
+		border-color: var(--gray)
+	}
 }
+
 .price {
 	font-weight: 700;
 	font-size: 1.5rem;
@@ -621,6 +629,23 @@ main {
 	}
 	li {
 		margin-bottom: 0.25rem;
+	}
+}
+.book-call-container {
+	max-width: var(--max-width-desktop);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	h4 {
+		margin: 0;
+		padding: 0;
+	}
+	.book-call-content {
+		display: flex;
+		align-items: center;
+		gap: 2rem;
 	}
 }
 .faq-container, .success-container {
@@ -823,6 +848,12 @@ footer {
 			&-1, &-2, &-3 {
 				width: 90%;
 			}
+		}
+	}
+
+	.book-call-container {
+		.book-call-content {
+			display: block;
 		}
 	}
 

@@ -460,6 +460,7 @@ export default function Home() {
                                         <li>Unlimited illustration requests</li>
                                         <li>One active request at a time</li>
                                         <li>48 to 72 hour delivery</li>
+										<li>Unlimited revisions</li>
                                         <li>Unlimited users</li>
                                         <li>Easy credit card payment</li>
                                         <li>Pause or cancel anytime</li>
@@ -475,7 +476,7 @@ export default function Home() {
                                                 <li>Sequential art (comics or comic strips – longer delivery times based on number of panels)</li>
                                             </ul>
                                         </li> */}
-                                        <li>Standard limited license (max 2 uses)</li>
+                                        <li><strong>Standard limited license (max 2 uses)</strong></li>
                                     </ul>
 
                                 </div>
@@ -492,6 +493,7 @@ export default function Home() {
                                         <li>Unlimited illustration requests</li>
                                         <li>One active request at a time</li>
                                         <li>48 to 72 hour delivery</li>
+										<li>Unlimited revisions</li>
                                         <li>Unlimited users</li>
                                         <li>Easy credit card payment</li>
                                         <li>Pause or cancel anytime</li>
@@ -507,20 +509,49 @@ export default function Home() {
                                                 <li>Sequential art (comics or comic strips – longer delivery times based on number of panels)</li>
                                             </ul>
                                         </li> */}
-                                        <li>Full Buyout unlimited license (you own the artwork and can do whatever you want with it)</li>
+                                        <li>
+											<strong>Full Buyout unlimited license (you own the artwork and can use it for whatever you want)
+											</strong>
+										</li>
                                     </ul>
 
                                 </div>
                             </div>
-                            <div className='pricing-option'>
-                                <h4>Need More Info?</h4>
-                                <p>If you have specific questions that I can help answer, feel free to <a href="mailto:info@sketchfoundry.co">drop an email</a>.</p>
-                                <p>If you need more help I'd be happy to jump on a quick 10 or 15 minute call.</p>
-                                <div className='button-container'>
-                                    <a href="https://calendly.com/sketchfoundry/sketch-foundry-intro" className='btn btn-primary' target='_blank'>Book a Call</a>
+							<div className='pricing-option pricing-option-single'>
+								<h4>Want to try it out?</h4>
+									
+								<div className='pricing-details'>
+									<div className='price'>$350 /Illustration</div>
+										<p>
+											If you're not quite ready to get all of the benefits of a 
+											monthly subscription, you can try out the service with a 
+											single illustration. 
+
+										</p>
+									
+										<p>Details:</p>
+										<ul>
+											<li>One single illustration (excludes sequential art).</li>
+											<li>Three rounds of revisions.</li>
+											<li>Standard limited license (max 2 uses)</li>
+										</ul>
+								</div>
+								<div className='button-container'>
+									<a href="https://buy.stripe.com/aEUbJX80EbUI8I8146" target='_blank' className='btn btn-primary'>Get Started</a>
                                 </div>
-                            </div>
+								
+							</div>
                         </div>
+						<div className='book-call-container'>
+								<h4>Need More Info?</h4>
+								<div className='book-call-content'>
+									<p>If you have specific questions that I can help answer, feel free to <a href="mailto:info@sketchfoundry.co">drop an email</a>. <br /><br />
+									If you need more help I'd be happy to jump on a quick 10 or 15 minute call.</p>
+									<div className='button-container'>
+										<a href="https://calendly.com/sketchfoundry/sketch-foundry-intro" className='btn btn-primary' target='_blank'>Book a Call</a>
+									</div>
+								</div>
+							</div>
                     </section>
                 </Element>
 				
