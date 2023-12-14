@@ -718,6 +718,7 @@ export default function Home() {
 							<Link href="/privacy" className='footer-link'>Privacy</Link>
                         </div>                        
                     </div>
+                    <div className="ml-embedded" data-form="oFO9GB"></div>
                 </div>
                 
             </footer>

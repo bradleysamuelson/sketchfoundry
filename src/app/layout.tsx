@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 // import './globals.css'
 import './styles.scss';
 import { Analytics } from '@vercel/analytics/react';
+import Script from 'next/script';
 
 
 // const inter = Inter({ subsets: ['latin'] });
@@ -47,6 +48,10 @@ export default function RootLayout({
 		<html lang="en">
 		<body>{children}</body>
 		<Analytics />
+		<Script
+			src="/mailerlite.js"
+			strategy="lazyOnload"
+		/>
 	</html>
   )
 }

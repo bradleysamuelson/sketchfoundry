@@ -79,8 +79,10 @@ export default function Privacy() {
                             <a href='https://billing.stripe.com/p/login/5kAg02gK05eheI03cc' className='footer-link'>Client Login</a>
                             {/* <a href='#' className='footer-link'>Terms</a> */}
                             {/* <a href='#' className='footer-link'>Privacy</a> */}
-                        </div>                        
+                        </div>  
+                        
                     </div>
+                    <div className="ml-embedded" data-form="oFO9GB"></div>                      
                 </div>
                 
             </footer>

@@ -729,11 +729,15 @@ footer {
 	display: flex;
 	justify-content: space-between;
 }
+.footer-left {
+	padding-top: 20px;
+}
 .footer-right {
 	display: flex;
 	gap: 1rem;
-	padding-right: 100px;
+	// padding-right: 100px;
 	margin-bottom: 2rem;
+	padding-top: 20px;
 }
 .footer-right-col {
 	display: flex;
