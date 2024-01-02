@@ -7,6 +7,7 @@
 	--light: #f6f3e9;
 	--light-gray: #fafafa;
 	--gray: #ccc;
+	--dark-gray: #666;
 	--link: #41828f;
 	--hover: #2f5d66;
 	--header-height: 100px;
@@ -621,6 +622,12 @@ main {
 	font-weight: 700;
 	font-size: 1.5rem;
 	text-align: center;
+}
+.price-original {
+	font-size: 1rem;
+	text-align: center;
+	color: var(--dark-gray);
+	text-decoration: line-through;
 }
 .pricing-details {
 	font-size: 1.15rem;

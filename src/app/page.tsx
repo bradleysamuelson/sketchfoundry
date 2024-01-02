@@ -450,10 +450,11 @@ export default function Home() {
                             <div className='pricing-option'>
                                 <h4>Standard</h4>
                                 <div className='pricing-details'>
-                                    <div className='price'>$1,199 /month</div>
+                                    <div className='price'>$999 /month</div>
+                                    <div className='price-original'>$1,199 /month</div>
 
                                     <div className='button-container'>
-                                        <a href="https://buy.stripe.com/fZedS5bcQ4sg3nO001" target='_blank' className='btn btn-primary'>Sign Up</a>
+                                        <a href="https://buy.stripe.com/14k29n2Gk1g42jKbIL" target='_blank' className='btn btn-primary'>Sign Up</a>
                                     </div>
                                     <p>Details:</p>
                                     <ul>
@@ -484,9 +485,10 @@ export default function Home() {
                             <div className='pricing-option'>
                                 <h4>Premium</h4>
                                 <div className='pricing-details'>
-                                    <div className='price'>$2,999 /month</div>
+                                    <div className='price'>$1,999 /month</div>
+                                    <div className='price-original'>$2,999 /month</div>
                                     <div className='button-container'>
-                                        <a href="https://buy.stripe.com/00g3dr2Gkf6Ue2s5kk" target='_blank' className='btn btn-primary'>Sign Up</a>
+                                        <a href="https://buy.stripe.com/00gg0d2GkaQE9McdQU" target='_blank' className='btn btn-primary'>Sign Up</a>
                                     </div>
                                     <p>Details:</p>
                                     <ul>
