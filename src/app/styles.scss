@@ -308,8 +308,8 @@ main {
 	font-size: 0;
     line-height: 0;
     top: 50%;
-    width: 20px;
-    height: 20px;
+    width: 50%;
+    height: 100%;
     transform: translate(0, -50%);
     cursor: pointer;
     color: transparent;
@@ -322,6 +322,7 @@ main {
 		font-family: var(--cartoon-font-solid);
 		font-size: 3rem;
 		opacity: 0.75;
+		position: absolute;
 	}
 	&:focus, &:hover {
 		color: transparent;
@@ -341,6 +342,8 @@ main {
 	left: -1rem;
 	&::before {
 		content: "<";
+		left: 0;
+
 	}
 }
 .slick-next {
@@ -349,6 +352,7 @@ main {
 .slick-next, [dir="rtl"] .slick-prev {
 	&:before{
 		content: ">";
+		right: 0;
 	}
 }
 
@@ -363,6 +367,7 @@ main {
 }
 [dir="rtl"] .slick-next:before {
     content: "<";
+	left: 0;
 }
 .slick-dots {
     bottom: -1rem;
