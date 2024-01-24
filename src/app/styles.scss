@@ -248,6 +248,9 @@ main {
 	height: 200px;
 	cursor: pointer;
 	margin-top: -40px;
+	div {
+		pointer-events: none;
+	}
 }
 .section-stats {
 	max-width: var(--max-width-desktop);
