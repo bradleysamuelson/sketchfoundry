@@ -7,6 +7,7 @@ import { Link as ScrollLink, Element, Events, animateScroll as scroll, scrollSpy
 import Slider from "react-slick";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Rive from '@rive-app/react-canvas';
 
 import { Portfolio } from './portfolio';
 
@@ -165,14 +166,30 @@ export default function Home() {
                     <div className='masthead-content'>
                         <h1><span>Custom Illustration</span> For <span>Connoisseurs of Creativity</span></h1>
                         <h2>Get custom illustrations for all of your projects with one simple subscription. <br />Pause or cancel at any time.</h2>
-                        <ScrollLink 
+                        {/* <ScrollLink 
                             className='btn btn-secondary'
                             to="pricing" 
                             spy={false} 
                             smooth={true} 
                             offset={-110} 
                             duration={700} 
-                        >Pricing Plans</ScrollLink>
+                        >Pricing Plans</ScrollLink> */}
+                        
+                        <ScrollLink
+                            className='rive-btn-pricing-container'
+                            to="pricing" 
+                            spy={false} 
+                            smooth={true} 
+                            offset={-110} 
+                            duration={700} 
+
+                        >
+                            <Rive
+                                src="/rive/price-button.riv"
+                                stateMachines="PricingPlans"
+                            />
+                        </ScrollLink>
+                        
                     </div>
 				</section>
 
