@@ -13,6 +13,7 @@ import { Portfolio } from './portfolio';
 
 import styles from './page.module.css'
 import logo from './img/logo.svg'
+import logoAnimated from './img/sketchfoundry-logo.gif'
 import logoWhite from './img/logo-white.svg';
 import divider1 from './img/divider1.svg';
 import divider2 from './img/divider2.svg';
@@ -102,7 +103,7 @@ export default function Home() {
                     <span className='logo-container'>
                         {/* <img src={logo} alt="Sketch Foundry" className='header-logo' /> */}
 						<Image
-							src={logo}
+							src={logoAnimated}
 							height={100}
 							width={229}
 							alt="Sketch Foundry"
